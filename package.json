@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js && npm run pack",
     "dev": "webpack -w --config webpack.dev.js",
-    "pack": "rm extension.zip && zip -r -FS extension.zip dist"
+    "pack": "rm -f extension.zip && zip -r -FS extension.zip dist"
   },
   "repository": {
     "type": "git",
