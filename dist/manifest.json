@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "my-browser-extension",
   "version": "1.0",
-  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "description": "Change colors on my website",
   "icons": {
     "48": "extension_icon.png"
   },
